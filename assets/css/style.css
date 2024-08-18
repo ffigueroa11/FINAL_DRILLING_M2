@@ -32,10 +32,6 @@ footer {
     background-color: #464444;
 }
 
-#resumen label {
-    font-weight: bold;
-}
-
 main {
     flex: 1;
     padding: 2rem 0;
