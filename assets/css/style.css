@@ -44,3 +44,17 @@ footer {
     text-align: center;
     margin-top: auto;
 }
+
+#Inicio {
+    text-align: center;
+    /* Centra el contenido dentro del contenedor */
+}
+
+#Inicio img {
+    display: inline-block;
+    /* Asegura que la imagen se trate como un elemento en línea */
+}
+
+#Inicio h4 {
+    text-align: left;
+}
