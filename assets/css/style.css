@@ -7,6 +7,7 @@
 html,
 body {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -15,13 +16,17 @@ body {
     flex-direction: column;
 }
 
-header h1 {
-    margin: 0;
-    background-color: rgb(59, 118, 245);
-    text-align: center;
+header {
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: #0a71c6;
+}
+
+header .nav-link {
+    color: white;
+}
+
+header .navbar-brand {
+    color: white;
 }
 
 .nav {
@@ -47,7 +52,8 @@ footer {
 
 #Inicio {
     text-align: center;
-    /* Centra el contenido dentro del contenedor */
+    background-color: #44a3f2;
+    padding: 20px;
 }
 
 #Inicio img {
@@ -57,4 +63,20 @@ footer {
 
 #Inicio h4 {
     text-align: left;
+}
+
+#presentacion {
+    text-align: left;
+}
+
+.section-title {
+    text-align: center;
+}
+
+#Habilidades p {
+    text-align: center;
+}
+
+#Habilidades h5 {
+    text-align: center;
 }

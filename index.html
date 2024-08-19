@@ -13,8 +13,8 @@
 
 <body>
     <header>
-        <h1>Portafolio</h1>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <!-- <h1>Portafolio</h1> -->
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#Inicio">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,52 +38,76 @@
                 </div>
             </div>
         </nav>
+        <section class="col-md-12" id="Inicio">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./assets/images/perfil.png" width="250px" alt="">
+                </div>
+                <div class="col-md-8" id="presentacion">
+                    <p>Hola, mi nombre es </p>
+                    <h2>Francisco Esteban Figueroa Villagran</h2>
+                </div>
+            </div>
+        </section>
     </header>
 
-    <main class="container">
-        <div class="row">
-            <section class="col-md-12" id="Inicio">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img src="./assets/images/perfil.png" width="200px" alt="">
-                            </div>
-
-                            <div class="col-md-6">
-                                <h4>Francisco Esteban Figueroa Villagran</h4>
+    <main class="container-fluid">
+        <section class="py-2 col-md-12" id="Habilidades">
+            <h3 class="section-title">Habilidades</h3>
+            <p>Tengo 8 años de experiencia en el desarrollo de aplicaciones web para diferentes clientes de todo el mundo.</p>
+            <div class="container-fluid">
+                <div class="row p-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Frontend</h5>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>HTML/CSS</li>
+                                    <li>VUEJS</li>
+                                    <li>Node.js</li>
+                                </ul>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Backend</h5>
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>Python</li>
+                                    <li>.NET</li>
+                                    <li>ORACLE/PL-SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Otros</h5>
+                                <ul>
+                                    <li>Wordpress</li>
+                                    <li>Unit Testing</li>
+                                    <li>SCRUM MASTER</li>
+                                    <li>DevOps</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-        </div>
-        </section>
-        <hr/>
-        <section class="col-md-12" id="Habilidades">
-            <h3>Habilidades</h3>
-            <div class="card">
-                <div class="card-body">
-                    <p><label id="labelNombre">Nombre:<span id="spanNombre"></span></label></p>
-                    <p><label id="labelCorreo">Correo:<a id="correoLink" href="#"></a></label></p>
-                    <p><label id="labelMensaje">Mensaje:<span id="spanMensaje"></span></label></p>
-                </div>
             </div>
         </section>
-        <hr/>
+
         <section class="col-md-12" id="Proyectos">
-            <h3>Proyectos</h3>
-            <div class="card">
-                <div class="card-body">
-                    <p><label id="labelNombre">Nombre:<span id="spanNombre"></span></label></p>
-                    <p><label id="labelCorreo">Correo:<a id="correoLink" href="#"></a></label></p>
-                    <p><label id="labelMensaje">Mensaje:<span id="spanMensaje"></span></label></p>
-                </div>
-            </div>
+            <h3 class="section-title">Proyectos</h3>
+
+
         </section>
         <hr/>
         <section class="col-md-12" id="Contacto">
-            <h3>Formulario de Contacto</h3>
+            <h3 class="section-title">Formulario de Contacto</h3>
             <form action="#" id="formularioContacto">
                 <div class="mb-3">
                     <label for="Nombre" class="form-label">Nombre</label>
