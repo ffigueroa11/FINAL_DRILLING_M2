@@ -21,6 +21,8 @@ header {
     background-color: #0a71c6;
 }
 
+
+
 header .nav-link {
     color: white;
 }
@@ -80,3 +82,23 @@ footer {
 #Habilidades h5 {
     text-align: center;
 }
+
+#spanIcon {
+    font-size: 0.3in;
+    color: #44a3f2;
+    
+}
+#spanIcon i{
+    align-self: center;
+    display: flex;
+    justify-content:center
+    
+}
+
+#cardImagen {
+   padding: 0;   
+}
+
+#cardImagen img{
+    width: 100%; 
+ }

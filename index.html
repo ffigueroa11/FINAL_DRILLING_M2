@@ -6,25 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
 </head>
 
 <body>
     <header>
-        <!-- <h1>Portafolio</h1> -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#Inicio">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                <a class="navbar-brand" href="#">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-
-                    <ul class="nav justify-content-end">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#Habilidades">Habilidades</a>
+                            <a class="nav-link active" aria-current="page" href="#Habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Proyectos">Proyectos</a>
@@ -32,12 +31,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#Contacto">Contacto</a>
                         </li>
-
                     </ul>
-
                 </div>
             </div>
-        </nav>
+        </nav>        
         <section class="col-md-12" id="Inicio">
             <div class="row">
                 <div class="col-md-4">
@@ -60,6 +57,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
+                                <span id="spanIcon"><i class="fa-solid fa-code"></i></span>
                                 <h5>Frontend</h5>
                                 <ul>
                                     <li>Javascript</li>
@@ -73,6 +71,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
+                                <span id="spanIcon"><i class="fa-solid fa-database"></i></span>
                                 <h5>Backend</h5>
                                 <ul>
                                     <li>PHP</li>
@@ -86,6 +85,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
+                                <span id="spanIcon"><i class="fa-solid fa-cloud"></i></span>
                                 <h5>Otros</h5>
                                 <ul>
                                     <li>Wordpress</li>
@@ -102,7 +102,42 @@
 
         <section class="col-md-12" id="Proyectos">
             <h3 class="section-title">Proyectos</h3>
+            <div class="container-fluid">
+                <div class="row p-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./assets/images/fondo1.jpeg" alt="">
+                            <div class="card-body" >
+                                <h5>App Hibrida</h5>
+                                <span class="badge rounded-pill bg-primary">React Native</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./assets/images/imagen2.jpg" alt="">
+                            <div class="card-body" >
+                                <h5>WebApp</h5>
+                                <span class="badge rounded-pill bg-danger">HTML5</span>
+                                <span class="badge rounded-pill bg-danger">JavaScript</span>
+                                <span class="badge rounded-pill bg-primary">PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./assets/images/imagen3.jpeg" alt="">
+                            <div class="card-body" >
+                               <h5>Mobil App</h5>
+                               <span class="badge rounded-pill bg-primary">Android</span>
+                               
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <hr/>
@@ -130,9 +165,11 @@
     <footer class="text-center text-white">
         <p>Síguenos en nuestras redes sociales:</p>
         <p><a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">Instagram</a></p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </footer>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    
     <script src="./assets/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
 
