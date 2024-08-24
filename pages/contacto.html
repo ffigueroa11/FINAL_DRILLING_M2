@@ -34,7 +34,12 @@
 
     <main class="container-fluid">                               
                 <div class="row">
-                    <section class="col-md-6 offset-md-3" id="sectionFormContacto">                        
+                    <section class="col-md-6 offset-md-3" id="sectionFormContacto">   
+                        <div class="d-flex justify-content-center">
+                            <img src="../assets/images/perfil.png" width="120px" alt="">
+                        </div>  
+                        <h2>¿Tienes una idea que compartir? Estoy entusiasmado</h2>
+                                         
                          <form action="#" id="formularioContacto">
                             <div class="mb-3">
                                 <label for="Nombre" class="form-label">Nombre</label>
@@ -48,7 +53,10 @@
                                 <label for="Mensaje" class="form-label">Mensaje</label>
                                 <textarea class="form-control requeridoEnviar" id="Mensaje" name="Mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
                             </div>
-                            <button type="button" class="btn btn-primary" id="enviar-form">Enviar</button>
+                            
+                            <div id="divButton" class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary btn-lg btn-block " id="enviar-form">Enviar</button>
+                            </div>
                         </form>
                     </section>
                 </div>

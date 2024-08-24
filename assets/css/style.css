@@ -129,7 +129,15 @@ footer {
 }
 
 #sectionFormContacto {
-
     padding: 2rem;
+}
 
+#sectionFormContacto h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#sectionFormContacto button {
+
+    border-radius: 25px;
 }
