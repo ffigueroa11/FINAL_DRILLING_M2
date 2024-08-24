@@ -45,11 +45,23 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #0a71c6;
     color: white;
     padding: 1rem;
     text-align: center;
     margin-top: auto;
+}
+
+footer a{
+   
+    color: white;
+    
+}
+
+footer a::before{
+   
+    color: white;
+    
 }
 
 #Inicio {

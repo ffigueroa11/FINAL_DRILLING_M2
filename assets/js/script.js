@@ -21,16 +21,22 @@ $(document).ready(function() {
         let Mensaje = $('#Mensaje').val()
 
         if (!validaDatosEnviados(nameClass)) return false
-
-        $('#spanNombre').html(Nombre)
-
-        $('#correoLink').text(Correo); // Asignar el valor al texto del enlace
-        $('#correoLink').attr('href', 'mailto:' + Correo); // Asignar el atributo href del enlace
-
-
-        $('#spanMensaje').html(Mensaje)
+        
+        $.dialog({
+            title: 'Confirmación',
+            content: 'Mensaje enviado correctamente...',
+        });
 
         $('#formularioContacto')[0].reset()
+
+        setTimeout(function () {
+            window.location.href = "../index.html";         
+
+            }, 2000); 
+
+        //$('#spanMensaje').html(Mensaje)
+
+        
 
     })
 
@@ -38,9 +44,7 @@ $(document).ready(function() {
 
        location.href ='./pages/contacto.html'
 
-    })
-
-    
+    })    
 
 
     $('#Email').on('focusout', function() {
