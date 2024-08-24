@@ -34,6 +34,14 @@ $(document).ready(function() {
 
     })
 
+    $('#buttonContacto').click(function() {
+
+       location.href ='./pages/contacto.html'
+
+    })
+
+    
+
 
     $('#Email').on('focusout', function() {
         var email = $(this).val();

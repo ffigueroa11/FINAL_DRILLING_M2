@@ -69,6 +69,12 @@ footer {
 
 #presentacion {
     text-align: left;
+    padding-top: 1.5rem;
+    padding-right: 4rem;
+}
+
+#presentacion p{
+    margin-bottom: 0;
 }
 
 .section-title {
@@ -102,3 +108,22 @@ footer {
 #cardImagen img{
     width: 100%; 
  }
+
+ #Contacto{
+    padding: 2rem;    
+ }
+
+ #Contacto p {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#Contacto #divButton {
+
+    padding-top: 3rem;
+}
+
+#Contacto button {
+
+    border-radius: 25px;
+}
